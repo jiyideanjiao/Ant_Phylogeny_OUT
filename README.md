@@ -55,4 +55,5 @@ mkdir core_ortholog
 9. 运行以下命令
 ```
 cat core_ogg_list | awk '{print$1}' | xargs -I '{}' mv {} core_ortholog/
+cat list | awk '{print$1}' | xargs -I '{}' mv {} 
 ```
